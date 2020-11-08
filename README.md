@@ -1,11 +1,11 @@
-# ORB
+# WOO
 
 ```
 //usage
 
-WOO_CTX=
-WOO_FLG={}
-WOO_CASH={}
+//WOO_FLG={}
+//WOO_CASH={}
+WOO_CTX=void 0
 WOO`
 ；設定
 ；

@@ -2,7 +2,7 @@
 
 ```
 //pug
-script(src="https://gnjo.github.io/WOO/WOO.js)
+script(src="https://gnjo.github.io/WOO/WOO.js")
 //usage
 
 WOO`

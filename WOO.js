@@ -136,6 +136,7 @@ async function WOO(obj){
  }
  function jump(line){
   let str=line.replace(/＞/g,'') //＞はいくつでもよい
+  console.log(str)
   if(/｜/.test(line)){
    let a=line.split('｜')
    //   console.log(a[1],WOO_FLG[ a[1] ])

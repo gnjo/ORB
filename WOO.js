@@ -91,13 +91,14 @@ async function WOO(obj){
    ctx.fillText(ask,ox1,oy)
    ary.map((d,i)=>{
     let ox2=ox1+fsize*2
-    ctx.fillText(d,ox2,oy+fsize*i + fsize)
     if(n===i){
      let wk=ctx.fillStyle
      ctx.fillStyle='#f26'
      ctx.fillText(d,ox2,oy+fsize*i +fsize)
      ctx.fillStyle=wk
-    } 
+    }else{
+     ctx.fillText(d,ox2,oy+fsize*i + fsize)     
+    }
    })
 
    k=await key()

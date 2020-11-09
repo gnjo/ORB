@@ -135,12 +135,12 @@ async function WOO(obj){
   return
  }
  function jump(line){
-  let str=line.slice(1)
+  let str=line.replace(/＞/g,'') //＞はいくつでもよい
   if(/｜/.test(line)){
    let a=line.split('｜')
    //   console.log(a[1],WOO_FLG[ a[1] ])
    if(!WOO_FLG[ a[1] ])return
-   str=a[0].slice(1)
+   str=a[0]
   }
   //  console.log(str)
   let j=o.ary.findIndex((d)=>d===str)

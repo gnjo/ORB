@@ -143,11 +143,11 @@ async function WOO(obj){
    if(!WOO_FLG[ a[1] ])return
    str=a[0]
   }
-  //  console.log(str)
   let j=o.ary.findIndex((d)=>d===str)
+  console.log(j,str)
   if(j===-1)return
   o.i= j-1
-  //  console.log(o.i)
+    console.log(o.i)
  }
  ////////
  async function img(line){

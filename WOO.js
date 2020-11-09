@@ -136,18 +136,18 @@ async function WOO(obj){
  }
  function jump(line){
   let str=line.replace(/＞/g,'') //＞はいくつでもよい
-  console.log(str)
-  if(/｜/.test(line)){
-   let a=line.split('｜')
+//  console.log(str)
+  if(/｜/.test(str)){
+   let a=str.split('｜')
    //   console.log(a[1],WOO_FLG[ a[1] ])
    if(!WOO_FLG[ a[1] ])return
    str=a[0]
   }
   let j=o.ary.findIndex((d)=>d===str)
-  console.log(j,str)
+ // console.log(j,str)
   if(j===-1)return
   o.i= j-1
-    console.log(o.i)
+ //console.log(o.i)
  }
  ////////
  async function img(line){

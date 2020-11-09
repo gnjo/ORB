@@ -75,6 +75,40 @@ WOO`
 
 ```
 
+```
+let x=WOO`
+；設定
+；
+；
+＠#000
+＠黒＝#000
+＠赤＝#300
+＠オレンジ＝#ff0
+＠グレー＝#123
+＠城＝https://gnjo.github.io/mock3d/bg/city.jpg
+＠シティ１＝https://gnjo.github.io/mock3d/bg/city1.jpg
+＠＠亜人＝https://gnjo.github.io/mock3d/mons/woman1-min.png
+
+＃シーン１
+＠シティ１
+＄あああ＝これは設問ですか｜＊あああ｜いいい｜ううう
+
+＞＃せいかい｜＄あああ
+＞＃シーン１
+＃せいかい
+＠＠亜人
+「はい、正解」
+＞＃終了
+
+＃終了
+`
+
+;(async()=>{
+ let ans=await x
+ console.log(ans)
+})();
+
+```
 
 
 

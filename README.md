@@ -111,6 +111,17 @@ let x=WOO`
 ```
 
 
+```
+
+/*
+let mb=new MesBox(ctx,key,font,color,markcolor,border)
+await mb.mesbox(title,text,cx,cy,w,h,pad)
+let cn=await mb.selbox(title,selects,firstchoice,cx,cy,w,h,pad)
+*/
+
+
+```
+
 
 
 

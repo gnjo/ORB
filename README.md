@@ -122,7 +122,17 @@ let cn=await mb.selbox(title,selects,firstchoice,cx,cy,w,h,pad)
 
 ```
 
+```
 
+let ds=drawscript({
+canvas:"canvas",key:"13,38,40", //A,^,v
+basecolor:"#abc",markcolor:"#f26",
+})
+await ds.cmd(line)
+await ds.cmd(line)
+
+
+```
 
 
 
